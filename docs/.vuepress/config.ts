@@ -13,6 +13,7 @@ const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 export default defineConfig({
   // theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
+  dest: 'public',
 
   locales: {
     '/': {
