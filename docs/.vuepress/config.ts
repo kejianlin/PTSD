@@ -7,7 +7,7 @@ import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 
-const DOMAIN_NAME = 'kejianlin.com' // 域名 (不带https)
+const DOMAIN_NAME = 'kejianlin.top' // 域名 (不带https)
 const WEB_SITE = `https://${DOMAIN_NAME}` // 网址
 
 export default defineConfig({
@@ -52,7 +52,7 @@ export default defineConfig({
     docsDir: 'docs', // 编辑的文件夹
     // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
 
-    //*** 以下是Vdoing主题相关配置，文档：https://doc.kejianlin.com/pages/a20ce8/ ***//
+    //*** 以下是Vdoing主题相关配置，文档：https://doc.kejianlin.top/pages/a20ce8/ ***//
 
     // category: false, // 是否打开分类功能，默认true
     // tag: false, // 是否打开标签功能，默认true

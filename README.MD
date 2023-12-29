@@ -1,4 +1,4 @@
-<p align="center"><a href="https://kejianlin.com/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://jsd.cdn.zzko.cn/gh/kejianlin/image_store/blog/20200409124835.png" alt="logo"></a></p>
+<p align="center"><a href="https://kejianlin.top/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://jsd.cdn.zzko.cn/gh/kejianlin/image_store/blog/20200409124835.png" alt="logo"></a></p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing"></a>
@@ -12,8 +12,8 @@
 
 
 
- [文档](https://doc.kejianlin.com/)  |
- [效果](https://kejianlin.com/)  |
+ [文档](https://doc.kejianlin.top/)  |
+ [效果](https://kejianlin.top/)  |
  [本仓库的gitee镜像](https://gitee.com/kejianlin/vuepress-theme-vdoing)
 
 <br/>
@@ -36,10 +36,10 @@
 [**更新日志**](https://github.com/kejianlin/vuepress-theme-vdoing/releases)
 
 ## 这个主题可以做什么？
-* 案例1：[知识库兼博客站](https://kejianlin.com/)
+* 案例1：[知识库兼博客站](https://kejianlin.top/)
 * 案例2：[仅博客站](https://kejianlin.github.io/vdoing-demo-blog/)
 * 案例3：[仅知识库](https://kejianlin.github.io/vdoing-demo-repository/)
-* 案例4：[文档站](https://doc.kejianlin.com/)
+* 案例4：[文档站](https://doc.kejianlin.top/)
 
 
 ## 快速上手
@@ -63,7 +63,7 @@ npm run dev # or yarn dev
 
 期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
 
-届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress，也可能两个都升级。目前(2020.10.29)来看还需要一段时间才能让大家使用上基于它们的新版本，还希望大家多多 [:sparkling_heart:支持](https://doc.kejianlin.com/pages/1b12ed/) 哟，持续关注吧~ -->
+届时，VuePress 1.x 编译慢的缺点将得到极大的改善。我将会视情况把主题升级至 VuePress v2.0 或 VitePress，也可能两个都升级。目前(2020.10.29)来看还需要一段时间才能让大家使用上基于它们的新版本，还希望大家多多 [:sparkling_heart:支持](https://doc.kejianlin.top/pages/1b12ed/) 哟，持续关注吧~ -->
 
 ## :sparkling_heart:支持这个项目
 
@@ -81,7 +81,7 @@ npm run dev # or yarn dev
 | :---------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
 | <img src="https://jsd.cdn.zzko.cn/gh/kejianlin/image_store/blog/20200523131533.jpg" alt="赞赏码" width=150> | <img src="https://jsd.cdn.zzko.cn/gh/kejianlin/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=150> | <img src="https://jsd.cdn.zzko.cn/gh/kejianlin/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=150> |
 
-二维码没有正常显示？点 [这里😎](https://doc.kejianlin.com/pages/1b12ed/)
+二维码没有正常显示？点 [这里😎](https://doc.kejianlin.top/pages/1b12ed/)
 
 ## 致谢
 :heart:感谢支持这个项目的朋友
