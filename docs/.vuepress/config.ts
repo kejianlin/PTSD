@@ -154,6 +154,14 @@ export default defineConfig({
   // 插件配置
   plugins: <UserPlugins>[
     [
+      "comment1",
+      {
+        type: "waline",
+        serverURL: "https://waline.kejianlin.top",
+        // your options
+      },
+    ],
+    [
       "sitemap", // 网站地图
       {
         hostname: WEB_SITE,
