@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }} # 版本
       - name: Install specific version of waline/client
-        run: npm install waline/client@2.0.0
+        run: npm install @waline/client@2.0.0
       - name: Build-and-deploy # 步骤3
         run: |
           remote_addr=`git remote get-url --push origin`
