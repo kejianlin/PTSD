@@ -26,12 +26,8 @@ jobs:
         uses: actions/setup-node@v3 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
-      - name: Remove old node_modules
-        run: |
-          rm -rf node_modules
       - name: Install dependencies
-        run: |
-          npm install
+        run: yarn install
       - name: Build-and-deploy # 步骤3
         run: |
           remote_addr=`git remote get-url --push origin`
@@ -39,7 +35,6 @@ jobs:
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
           deploy_branch=gh-pages
-          yarn
           yarn build
           cd public
           git config --global init.defaultBranch $deploy_branch
