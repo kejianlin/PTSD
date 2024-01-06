@@ -26,8 +26,10 @@ jobs:
         uses: actions/setup-node@v3 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
+      - name: Install dependencies
+        run: yarn install
       - name: Install specific version of waline/client
-        run: npm install @waline/client@2.0.0
+        run: yarn add @waline/client@2.0.0
       - name: Build-and-deploy # 步骤3
         run: |
           remote_addr=`git remote get-url --push origin`
@@ -35,7 +37,6 @@ jobs:
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
           deploy_branch=gh-pages
-          yarn
           yarn build
           cd public
           git config --global init.defaultBranch $deploy_branch
