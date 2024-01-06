@@ -26,6 +26,12 @@ jobs:
         uses: actions/setup-node@v3 # 作用：安装nodejs
         with:
           node-version: ${{ matrix.node-version }} # 版本
+      - name: Remove old node_modules
+        run: |
+          rm -rf node_modules
+      - name: Install dependencies
+        run: |
+          npm install
       - name: Build-and-deploy # 步骤3
         run: |
           remote_addr=`git remote get-url --push origin`
